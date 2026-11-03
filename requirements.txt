@@ -1,0 +1,10 @@
+streamlit>=1.45
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+plotly>=5.24
+matplotlib>=3.7
+# The HDBSCAN library used in the notebook. Optional: without it the app uses scikit-learn's HDBSCAN.
+hdbscan>=0.8.33
+# Basemaps (Canada.tif or online tiles) for the notebook-style static map. Optional.
+contextily>=1.5
